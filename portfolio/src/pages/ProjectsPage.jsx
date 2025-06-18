@@ -53,13 +53,13 @@ const ProjectsPage = () => {
                         <div className={myCSS.projectInfo}>
                             <p style={{ whiteSpace: 'pre-line' }}>{project.introText}</p>
                             <p style={{ whiteSpace: 'pre-line' }}>{project.fullText}</p>
-                            <ul>Habilidades Desenvolvidas:
+                            <ul>Skills developed:
                               {habilitiesList(project.habilities)}
                               </ul>
                         </div>
                         <figure>
                             <img src={project.img} alt={project.name} />
-                            <figcaption className={myCSS.caption}>Imagens de {project.name}</figcaption>
+                            <figcaption className={myCSS.caption}>Images From {project.name}</figcaption>
                         </figure>
                     </div>
                     <div className={myCSS.links}>
