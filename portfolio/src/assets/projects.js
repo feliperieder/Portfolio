@@ -35,7 +35,7 @@ const projects =
         "GDScript"
       ],
       itchLink: "https://roedor.itch.io/the-cube",
-      gitLink: "#",
+      gitLink: "https://github.com/feliperieder/Point-and-Click",
       img: PoinAndClick
     },
     {
@@ -50,7 +50,7 @@ const projects =
         "GDScript"
       ],
       itchLink: "https://roedor.itch.io/shadow-dreams",
-      gitLink: "#",
+      gitLink: "https://github.com/feliperieder/ShadowDream",
       img: ShadowDreams
     },
 
