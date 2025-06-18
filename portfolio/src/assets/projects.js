@@ -1,6 +1,9 @@
 import UniduniArt from "./UniduniArtGif.gif"
 import PoinAndClick from "./POINTANDCLICKGIF.gif"
 import ShadowDreams from "./ShadowDreamsGIF.gif"
+import PG1 from "./PG1.png"
+import PG3 from "./PG3.png"
+import PG5 from "./PG5.png"
 
 const projects = 
 [
@@ -16,7 +19,6 @@ const projects =
         "Unity",
         "C#"
       ],
-      link: "#",
       itchLink: "https://roedor.itch.io/uni-duni-art",
       gitLink: "https://github.com/feliperieder/ultimate-color",
       img: UniduniArt
@@ -32,7 +34,6 @@ const projects =
         "Godot",
         "GDScript"
       ],
-      link: "#",
       itchLink: "https://roedor.itch.io/the-cube",
       gitLink: "#",
       img: PoinAndClick
@@ -48,7 +49,6 @@ const projects =
         "Godot",
         "GDScript"
       ],
-      link: "#",
       itchLink: "https://roedor.itch.io/shadow-dreams",
       gitLink: "#",
       img: ShadowDreams
@@ -56,53 +56,51 @@ const projects =
 
     {
       id: 4,
-      name: "Shadow Dreams",
-      introText: "Shadow Dreams is a horror game about finding and using the player light light out of a nightmare.",
+      name: "First Web Develoment Guided Project",
+      introText: "Here we start to learn CSS, as well as how to categorize the project with the appropriate tags.",
       fullText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       habilities: [
-        "Level Designer",
+        "Web Design",
         "Programmer",
-        "Godot",
-        "GDScript"
+        "CSS",
+        "HTML"
       ],
-      link: "#",
       itchLink: "#",
-      gitLink: "#",
-      img: ShadowDreams
+      gitLink: "https://github.com/feliperieder/WebDev/tree/main/projetoGuiado1%20(1)/projetoGuiado1",
+      img: PG1
     },
 
     {
-      id: 5,
+      id: "Third Web Develoment Guided Project",
       name: "Shadow Dreams",
-      introText: "Shadow Dreams is a horror game about finding and using the player light light out of a nightmare.",
+      introText: "With all the knowledge acquired of CSS and HTML, a replica of the Instagram login page was created.",
       fullText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       habilities: [
-        "Level Designer",
+        "Web Design",
         "Programmer",
-        "Godot",
-        "GDScript"
+        "CSS",
+        "HTML"
       ],
-      link: "#",
       itchLink: "#",
-      gitLink: "#",
-      img: ShadowDreams
+      gitLink: "https://github.com/feliperieder/WebDev/tree/main/ProjetoGuiado3%20(1)/ProjetoGuiado3",
+      img: PG3
     },
 
     {
       id: 6,
-      name: "Shadow Dreams",
-      introText: "Shadow Dreams is a horror game about finding and using the player light light out of a nightmare.",
+      name: "Fifth Web Develoment Guided Project",
+      introText: "A QR code generator was created using Java for the first time. Ending the semester with all the web development practices learned.",
       fullText: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       habilities: [
-        "Level Designer",
+        "Web Design",
         "Programmer",
-        "Godot",
-        "GDScript"
+        "CSS",
+        "HTML",
+        "Java Script"
       ],
-      link: "#",
       itchLink: "#",
-      gitLink: "#",
-      img: ShadowDreams
+      gitLink: "https://github.com/feliperieder/WebDev/tree/main/ProjetoGuiado5%20(1)/ProjetoGuiado5",
+      img: PG5
     }
   ]
 
