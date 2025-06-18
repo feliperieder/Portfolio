@@ -1,0 +1,60 @@
+.container{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    max-width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.contact{
+    display: inline-block;
+    text-align: left;
+    color: #FFF;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    padding: 1em 3.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #222622;
+    cursor: pointer;
+    transition: all 0.25s; /*Tempo para aparecer a borda no hover*/
+}
+
+
+.contact:hover {
+    border-color: #657A8C;
+    font-weight: bold;
+  }
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 2em;
+    }
+    .description{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .container{
+        position:relative;
+        right: auto;
+        left: auto;
+        max-width: 100%;
+        text-align: center;
+        background-color: #222622;
+    }
+
+    .contact{
+        background-color: #8c7069;
+        padding: .5em 2em;
+        border-radius: 4px;
+    }
+}

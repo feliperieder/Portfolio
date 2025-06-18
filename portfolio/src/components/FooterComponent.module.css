@@ -1,0 +1,19 @@
+.socialMedia{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 50px;
+}
+
+
+.socialImg{
+    height: 40px;
+    width: 100%;
+    object-fit: contain; /*Para corrigir o bug da imagem do itch*/
+}
+
+img{
+    min-width: auto;
+}

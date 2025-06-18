@@ -1,0 +1,48 @@
+.aboutMeInfo{
+    display: flex;
+    justify-content: center; /*centraliza filhos horizontalmente */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    max-width: 500px;
+    min-width: 300px;
+}
+
+img{
+    min-width: 300px;
+}
+
+.text{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+.resume{
+    width: 300px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 3em;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    font-weight: 500;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #222622;
+    transition: border-color 0.25s;
+    color: white;
+}
+
+.resume:hover{
+    border-color: #657A8C;
+}
+
+@media screen and (max-width: 800px) {
+    .resume{
+        width: 250px;
+    }
+}

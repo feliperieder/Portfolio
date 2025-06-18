@@ -1,0 +1,19 @@
+.goTop{
+    position: fixed;
+    bottom: 4em;
+    right: 4em;
+    display: flex;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    background-color: #F28749;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.visible {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }

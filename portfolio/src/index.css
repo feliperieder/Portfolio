@@ -1,0 +1,95 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0px;
+
+  /*color-scheme: light dark;*/
+  color: #FFF;
+  background-color: #0D0C0D;
+  scroll-behavior: smooth;
+}
+
+
+h1 {
+  font-size: 3.2em; /*em é uma medida relativa ao tamanho padão do sispositivo para fonte*/
+  line-height: 1.1;
+}
+
+h2{
+  font-size: 2.6em;
+  text-align: left;
+}
+
+h2::after { /*Efeito interessante para os títulos de cada sessão*/
+  content: '';
+  display: block;
+  height: 3px;
+  width: 150px;
+  background-color: #F28749;
+  margin-top: 10px;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 80px 10%;
+  max-width: 1800px;
+  min-width: 400px;
+  border-bottom: 1px solid #222622;
+}
+
+button {
+  color: #FFF;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1em 3.5em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #222622;
+  cursor: pointer;
+  transition: border-color 0.25s; /*Tempo para aparecer a borda no hover*/
+}
+button:hover {
+  border-color: #657A8C;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media screen and (max-width: 800px) {
+  :root{
+    text-align: center;
+  }
+
+  .container{
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    h2{
+      text-align: center;
+    }
+
+    h2::after{
+      margin: 10PX auto 0 auto;
+    }
+}
+}
+/*
+Caso eu queira ter um light mode, alterar isso daqui
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+ }
+*/

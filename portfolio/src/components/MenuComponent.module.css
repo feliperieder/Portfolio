@@ -1,0 +1,48 @@
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1800px;
+    left: 10%;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    gap: 50px;
+}
+
+.navLink{
+    text-decoration: none;
+    font-family: inherit;
+    position: relative;
+    display: inline-block;
+    padding: 2px 5px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: all 0.25s;
+}
+
+.navLink:hover{
+    color: #F28749;
+}
+
+@media screen and (max-width: 800px) {
+    .navBar{
+        justify-content: center;
+    }
+    .navList{
+        width: auto;
+        padding: 0;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .navLink{
+        font-size: 1.5em;
+    }
+
+    .menuDisapear{
+        display: none;
+    }
+}
