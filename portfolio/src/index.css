@@ -10,6 +10,12 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 
 h1 {
   font-size: 3.2em; /*em é uma medida relativa ao tamanho padão do sispositivo para fonte*/
@@ -72,11 +78,15 @@ button:focus-visible {
     h2{
       text-align: center;
     }
+  }
+
+    h2{
+      text-align: center;
+    }
 
     h2::after{
       margin: 10PX auto 0 auto;
     }
-}
 }
 /*
 Caso eu queira ter um light mode, alterar isso daqui
