@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Arrow from "../assets/arrow-up.svg";
 import myCSS from "./ButtonTopComponent.module.css";
+import { HashLink } from 'react-router-hash-link';
 
 const ButtonTopComponent = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,9 +17,9 @@ const ButtonTopComponent = () => {
   }, []);
 
   return (
-    <a href="#top" title="Go to Top" className={`${myCSS.goTop} ${isVisible ? myCSS.visible : ''}`}> {/*Se is visible === true =>visible se dor false ele vai para um azio, onde fica apenas com as propriedades do goTop */}
+    <HashLink smooth to="#top" title="Go to Top" className={`${myCSS.goTop} ${isVisible ? myCSS.visible : ''}`}> {/*Se is visible === true =>visible se dor false ele vai para um azio, onde fica apenas com as propriedades do goTop */}
       <img src={Arrow} alt="Go To Top" className={myCSS.goTopImg} />
-    </a>
+    </HashLink>
   );
 };
 

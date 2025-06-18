@@ -41,7 +41,6 @@ h2::after { /*Efeito interessante para os títulos de cada sessão*/
   padding: 80px 10%;
   max-width: 1800px;
   min-width: 400px;
-  border-bottom: 1px solid #222622;
 }
 
 button {
