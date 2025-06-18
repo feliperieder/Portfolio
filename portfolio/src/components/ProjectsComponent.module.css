@@ -1,7 +1,7 @@
 
 
 .title{
-    text-align: left;
+    text-align: center;
 }
 
 .project{
@@ -60,11 +60,34 @@ figcaption{
     }
     .moreInfo{
         text-align: center;
-        width: 225px;
+        width: 150px;
         height: auto;
+        padding: 5px 1px;
+    }
+
+    .projectTitle{
+        font-size: 1.3em;
+        font-weight: 500;
+        margin: 4px
     }
 
     ul{
         list-style: none;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 15px;
+        padding: 0px 10px;
+        text-align: justify;
+    }
+
+    .allProjects{
+        font-weight: 500;
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+        margin-bottom: 30px;
     }
 }

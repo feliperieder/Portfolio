@@ -15,6 +15,7 @@
 
 .contact{
     display: inline-block;
+    text-decoration: none;
     text-align: left;
     color: #FFF;
     border-radius: 8px;
@@ -39,7 +40,7 @@
         font-size: 2em;
     }
     .description{
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
     }
 
@@ -56,5 +57,6 @@
         background-color: #8c7069;
         padding: .5em 2em;
         border-radius: 4px;
+        font-size: 1em;
     }
 }

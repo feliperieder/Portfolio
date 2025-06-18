@@ -17,3 +17,12 @@
     transform: scale(1);
     pointer-events: auto;
   }
+
+  @media  (max-width: 800px) {
+    .goTop{
+        height: 2.5em;
+        width: 2.5em;
+        bottom: 1em;
+        right: 1em;
+    }
+  }

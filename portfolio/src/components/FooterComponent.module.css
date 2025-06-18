@@ -17,3 +17,12 @@
 img{
     min-width: auto;
 }
+
+@media  (max-width: 800px) {
+    .socialImg{
+        height: 20px;
+    }
+    .socialMedia{
+        margin: 20px;
+    }
+}
