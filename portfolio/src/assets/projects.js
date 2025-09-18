@@ -2,6 +2,7 @@ import UniduniArt from "./UniduniArtGif.gif"
 import PoinAndClick from "./POINTANDCLICKGIF.gif"
 import ShadowDreams from "./ShadowDreamsGIF.gif"
 import SpaceRogue from "./SpaceRogue.png"
+import Birdwatch from "./Birdwatch.gif"
 import PG1 from "./PG1.png"
 import PG3 from "./PG3.png"
 import PG5 from "./PG5.png"
@@ -67,7 +68,7 @@ const projects =
       ],
       itchLink: "https://roedor.itch.io/space-rogue",
       gitLink: "https://github.com/feliperieder",
-      img: SpaceRogue
+      img: Birdwatch
     },
     {
       id: 5,
