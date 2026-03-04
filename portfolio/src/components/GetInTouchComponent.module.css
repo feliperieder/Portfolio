@@ -16,13 +16,13 @@
     font-weight: 500;
     font-size: 1.4em;
     font-weight: bold;
-    background-color: #8C7069;
+    background-color: #ffb000;
     transition: border-color 0.25s;
     color: white;
 }
 
 .email:hover{
-    border-color: #F28749;
+    border-color: #b27b00;
 }
 
 .text{

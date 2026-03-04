@@ -4,7 +4,7 @@ import myCSS from './ProjectsPage.module.css';
 import ButtonTopComponent from "../components/ButtonTopComponent"
 import { Link } from 'react-router-dom';
 import FooterComponent from "../components/FooterComponent"
-import GithubImg from "../assets/github.svg"
+import GithubImg from "../assets/githubBlack.svg"
 
 const ProjectsPage = () => {
 
@@ -39,10 +39,10 @@ const ProjectsPage = () => {
   return (
     <>
     
-        <header className={myCSS.topBar} id='top'>
-          <h1>Meus Projetos</h1>
-          <Link to="/" className={myCSS.backButton}>Home Page</Link>
-          </header>
+      <header className={myCSS.topBar} id='top'>
+        <h1 className={myCSS.sectionTitle}>Meus Projetos</h1>
+        <Link to="/" className={myCSS.backButton}>Home Page</Link>
+      </header>
       <div className={myCSS.container}>
         <section>
           {projects.map((project) => {

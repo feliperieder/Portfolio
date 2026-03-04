@@ -24,14 +24,14 @@
     font-size: 1.1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #222622;
+    background-color: #bd0c06;
     cursor: pointer;
     transition: all 0.25s; /*Tempo para aparecer a borda no hover*/
 }
 
 
 .contact:hover {
-    border-color: #657A8C;
+    border-color: #700703;
     font-weight: bold;
   }
 

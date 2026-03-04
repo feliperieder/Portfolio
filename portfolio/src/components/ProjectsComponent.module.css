@@ -28,14 +28,14 @@
 
 .moreInfo{
     text-decoration: none;
-    color: #FFF;
+    color: #000;
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 1em 3.5em;
     font-size: 1.1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #222622;
+    background-color: #ffb000;
     cursor: pointer;
     transition: border-color 0.25s; /*Tempo para aparecer a borda no hover*/
     width: 300px;
@@ -43,6 +43,7 @@
 
 img{
     width: 100%;
+    max-width: 1000px;
     justify-content: center;
 }
 
@@ -59,14 +60,14 @@ figcaption{
     border-radius: 8px;
     font-size: 1.4em;
     font-weight: bold;
-    background-color: #8C7069;
+    background-color: #bd0c06;
     padding: .5em 3.5em;
     font-family: inherit;
     transition: border-color 0.25s; /*Tempo para aparecer a borda no hover*/
 }
 
 .allProjects:hover{
-    border-color: #F28749;
+    border-color: #700703;
 }
 
 @media screen and (max-width: 800px) {

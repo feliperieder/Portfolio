@@ -1,7 +1,7 @@
 import React from 'react'
-import GithubImg from "../assets/github.svg"
-import ItchIoImg from "../assets/itchImg.png"
-import linkedinImg from "../assets/linkedin.svg"
+import GithubImg from "../assets/githubBlack.svg"
+import ItchIoImg from "../assets/itchBlack.svg"
+import linkedinImg from "../assets/linkedinBLack.svg"
 import myCSS from "./FooterComponent.module.css"
 
 const FooterComponent = () => {

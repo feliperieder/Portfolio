@@ -6,7 +6,7 @@
     height: 5em;
     width: 5em;
     border-radius: 50%;
-    background-color: #F28749;
+    background-color: #b27b00;
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
     transform: scale(0);
