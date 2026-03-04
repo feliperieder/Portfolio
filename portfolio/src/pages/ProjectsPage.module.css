@@ -1,5 +1,5 @@
 .topBar{
-    background-image: url('FundoParallax.PNG');
+    background-image: url('/FundoParallax.PNG');
     background-size: cover;
     background-position: center;
     height: 200px;
