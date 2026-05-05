@@ -51,13 +51,13 @@ const projects =
       id: 3,
       name: "Uni Duni Artê",
       introText: "A two-player game designed to be played in an arcade or with two controllers. Each player is responsible for two colors that can be mixed together and can only control one direction. \nWinner of the 2024 Arcade Game Jam.",
-      fullText: "The game was developed in under 12 hours using Unity by a team of three. I was responsible for programming while also contributing to the game design. The theme of the game jam was “Duality,” and one of the additional challenges required the game to be playable by two players.",
+      fullText: "I developed a chaotic cooperative indie game centered around the theme “2 in 1.” The project was created by a team of two, in which I was responsible for programming and level design. The game, built around a drawing-based core mechanic, was developed in Godot using GDScript.\nThe project won the game jam, providing the opportunity for its continued development, and was later showcased at the Unisinos Arcade.",
       habilities: [
         "Game Designer",
         "Game Developer",
         "Programmer",
-        "Unity",
-        "C#"
+        "Godot",
+        "GDScript"
       ],
       itchLink: "https://roedor.itch.io/uni-duni-art",
       gitLink: "https://github.com/feliperieder/ultimate-color",
@@ -67,7 +67,7 @@ const projects =
       id: 4,
       name: "Split Hunt",
       introText: "A multiplayer game in which players must cooperate to survive successive waves of enemies within a confined arena. They are equipped with projectile-based attacks to defend themselves; however, success depends on coordinating their positioning to strike the enemies’ weak points. Players must also remain vigilant, as each enemy has its own preference, targeting specific players over others. \nWinner of the II Unisinos Game Jam.",
-      fullText: "The concept for this game was conceived immediately after completing Space Rogue. Given its simplicity, I quickly initiated development and challenged myself to finish it within just two days. While not created as part of a game jam, the project provided a valuable opportunity to design and develop a complete game independently. It also marked my first experience composing part of the soundtrack. Additionally, I implemented a randomized spawning system for objects, along with defining unique characteristics for each one.",
+      fullText: "The game was developed in under 12 hours using Unity by a team of three. I was responsible for programming while also contributing to the game design. The theme of the game jam was “Duality,” and one of the additional challenges required the game to be playable by two players.",
       habilities: [
         "Game Designer",
         "Game Developer",
@@ -134,10 +134,10 @@ const projects =
       habilities: [
         "Level Designer",
         "Programmer",
-        "Unity",
-        "C#"
+        "Godot",
+        "GDScript"
       ],
-      itchLink: "https://roedor.itch.io/space-rogue",
+      itchLink: "https://roedor.itch.io/wing-comander",
       gitLink: "https://github.com/feliperieder",
       img: Birdwatch
     },

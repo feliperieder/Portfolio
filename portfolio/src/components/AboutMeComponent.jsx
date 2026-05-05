@@ -2,7 +2,7 @@ import React from 'react'
 import Photo from "../assets/Me.JPG"
 import myCSS from "./AboutMeComponent.module.css"
 import resumeEN from "../assets/FelipeRiederGameDev_Curriculum_en.pdf"
-import resumePT from "../assets/FelipeRiederGameDev_Curriculum_ptbr.pdf"
+import resumePT from "../assets/FelipeRiederGameDev_Curriculum2026_ptbr.pdf"
 
 const AboutMeComponent = () => {
 
